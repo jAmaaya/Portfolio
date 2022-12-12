@@ -1,0 +1,466 @@
+
+/*
+
+font-family: 'Inter', sans-serif;
+font-family: 'Paytone One', sans-serif;
+font-family: 'Staatliches', cursive;
+
+*/
+
+
+
+* {
+	margin:0;
+	padding:0;
+	border:0;
+}
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+html {
+    font-size: 16px;
+    font-family: 'Inter', sans-serif;
+    
+}
+
+/* The nav bar 
+section starts here... */
+
+.span1 {
+    background-image: linear-gradient(to left, rgb(99, 19, 149), rgb(100, 55, 198), rgb(148, 35, 218), rgb(147, 14, 203), rgb(88, 31, 131), rgb(75, 39, 182));
+    -webkit-background-clip: text;
+        -moz-background-clip: text;
+        background-clip: text;
+        color: transparent;
+        
+}
+
+.span2 {
+    background-image: linear-gradient(to left, rgb(212, 173, 235), rgb(190, 164, 244), rgb(208, 170, 232), rgb(228, 195, 243), rgb(219, 188, 243), rgb(204, 187, 248));
+    -webkit-background-clip: text;
+        -moz-background-clip: text;
+        background-clip: text;
+        color: transparent;
+}
+
+.span3 {
+    background-image: linear-gradient(to left, rgb(99, 19, 149), rgb(148, 35, 218), rgb(147, 14, 203), rgb(75, 39, 182));
+    -webkit-background-clip: text;
+        -moz-background-clip: text;
+        background-clip: text;
+        color: transparent;
+        
+}
+
+.span4 {
+    background-image: linear-gradient(to left, rgb(248, 235, 255), rgb(254, 220, 255), rgb(251, 239, 255), rgb(228, 195, 243), rgb(239, 216, 255), rgb(231, 222, 255));
+    -webkit-background-clip: text;
+        -moz-background-clip: text;
+        background-clip: text;
+        color: transparent;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+    color: #ffffff;
+}
+
+header {
+    box-sizing:border-box;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+    background-color: #491e60;
+    height: 60px;
+    font-size: 0.875rem;
+    display:flex;
+    align-items: center;
+    border-bottom: solid 1px #c6c1c1;
+    box-shadow: 1px 5px 10px rgba(0, 0, 0, 0.33);
+}
+
+nav {
+    position: fixed;
+}
+
+header * {
+    display: inline;
+}
+
+header li {
+    margin: 20px;
+}
+  
+.logo {
+    padding: 1rem;
+}
+
+/* The banner area
+ starts here... */
+
+ .banner {
+    width: 100%;
+    height:33rem;
+    padding-top: 15rem;
+    background-color: #6c2d8e;
+ }
+
+ .t1 {
+    margin-top: 7%;
+    text-align: center;
+    font-size: 4rem;
+    color: #ffffff;
+    text-shadow: 1px 5px 10px rgba(0, 0, 0, 0.33);
+ }
+
+ 
+
+ /* The intro is going
+  to be here */
+
+section.num1 {
+    height:50rem;
+}
+
+h1.tintro {
+    font-size: 4rem;
+    color: #6c2d8e;
+    padding-left: 10%;
+    margin-top: 10%;
+    text-shadow: 1px 5px 10px rgba(0, 0, 0, 0.33);
+}
+
+p.intro {
+    font-size: 2.5rem ;
+    color: #ffffff;
+    background-color: #6c2d8e;
+    width: 45%;
+    margin-left: 10%;
+    padding: 3%;
+    border-radius: 5px;
+    box-shadow: 1px 5px 10px rgba(0, 0, 0, 0.33);
+}
+
+.img1 {
+    width: 30%;  
+    float: right;  
+    margin-right: 10%;
+    margin-bottom: 5%;
+    margin-top: -25%;
+    box-shadow: 1px 5px 10px rgba(0, 0, 0, 0.33);
+    border-radius: 10px;
+}
+
+@media only screen and (max-width: 425px) {
+    section.num1 {
+        height: 25rem;
+    }
+
+    p.intro {
+        font-size: 1.2rem;
+    }
+
+
+ }
+
+/* The Projects 
+part starts here */
+
+section.num3 {
+    height: 35rem;
+    background-color: #6c2d8e;
+}
+
+h1.t2 {
+    color: white;
+    text-align: left;
+    font-size: 4rem;
+    padding-left: 10%;
+    padding-top: 7%;
+    text-shadow: 1px 5px 10px rgba(0, 0, 0, 0.277);
+}
+ol {
+    width: 60%;
+    list-style: none;
+
+}
+li.t {
+    margin-top: 5%;
+    margin-bottom: 10%;
+    color: white;
+    font-size: 2rem;
+    margin-left: 15%;
+}
+
+li.s {
+    font-size: 2.5rem;
+}
+
+
+.h:hover {
+    background-image: linear-gradient(to left, rgb(212, 173, 235), rgb(190, 164, 244), rgb(208, 170, 232), rgb(228, 195, 243), rgb(219, 188, 243), rgb(204, 187, 248));
+    -webkit-background-clip: text;
+        -moz-background-clip: text;
+        background-clip: text;
+        color: transparent;
+        text-shadow: 1px 5px 10px rgba(255, 255, 255, 0.348);
+        font-size: 2.7rem;
+        transition: 0.4s;
+        cursor: pointer;
+
+}
+
+
+#js {
+    font-size: 1.5rem;
+    margin-bottom: 3rem;
+    margin-right: 10%;
+    color: white;
+}
+
+.invi {
+    text-shadow: 1px 5px 10px rgba(255, 255, 255, 0.348);
+}
+
+@media only screen and (max-width: 768px) {
+    .banner {
+        height: 25rem;
+    }
+    
+    h1.t1 {
+        font-size: 3rem;
+    }
+ }
+
+
+
+@media only screen and (max-width: 768px) {
+    section#k.num3 {
+        height: auto;
+        padding-bottom: 2rem; 
+     }
+
+     p.intro {
+        width: 55%;
+        font-size: 2.2rem;
+        margin: 10%;
+        z-index: 100;
+        
+    }
+
+    li.t {
+        background-image: linear-gradient(to left, rgb(212, 173, 235), rgb(190, 164, 244), rgb(208, 170, 232), rgb(228, 195, 243), rgb(219, 188, 243), rgb(204, 187, 248));
+    -webkit-background-clip: text;
+        -moz-background-clip: text;
+        background-clip: text;
+        color: transparent;
+        text-shadow: 1px 5px 10px rgba(255, 255, 255, 0.348);
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    section#q.num1 {
+        height: auto;
+        padding-bottom: 5rem;
+    }
+
+    p.intro {
+        width: 55%;
+        font-size: 1.6rem;
+        margin: 10%;
+    }
+
+    li.t {
+        background-image: linear-gradient(to left, rgb(212, 173, 235), rgb(190, 164, 244), rgb(208, 170, 232), rgb(228, 195, 243), rgb(219, 188, 243), rgb(204, 187, 248));
+    -webkit-background-clip: text;
+        -moz-background-clip: text;
+        background-clip: text;
+        color: transparent;
+        text-shadow: 1px 5px 10px rgba(255, 255, 255, 0.348);
+    }
+
+
+    li#a1.t.s {
+        background-image: linear-gradient(to left, rgb(212, 173, 235), rgb(190, 164, 244), rgb(208, 170, 232), rgb(228, 195, 243), rgb(219, 188, 243), rgb(204, 187, 248));
+    -webkit-background-clip: text;
+        -moz-background-clip: text;
+        background-clip: text;
+        color: transparent;
+        text-shadow: 1px 5px 10px rgba(255, 255, 255, 0.348);
+        font-size: 2rem;
+        transition: 0.4s;
+        cursor: pointer;
+        margin-top: 10%;
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+
+    a.l {
+        display: none;
+
+    }
+
+    p.intro {
+        width: 65%;
+        font-size: 1.5rem;
+        margin: 10%;
+    }
+
+    section#k.num3 {
+       height: auto;
+       padding-bottom: 2rem; 
+    }
+
+    h1.t2 {
+        padding-left: 7%;
+        padding-right: 7%;
+    }
+
+    li.t {
+        background-image: linear-gradient(to left, rgb(212, 173, 235), rgb(190, 164, 244), rgb(208, 170, 232), rgb(228, 195, 243), rgb(219, 188, 243), rgb(204, 187, 248));
+    -webkit-background-clip: text;
+        -moz-background-clip: text;
+        background-clip: text;
+        color: transparent;
+        text-shadow: 1px 5px 10px rgba(255, 255, 255, 0.348);
+    }
+
+
+    li#a1.t.s {
+        background-image: linear-gradient(to left, rgb(212, 173, 235), rgb(190, 164, 244), rgb(208, 170, 232), rgb(228, 195, 243), rgb(219, 188, 243), rgb(204, 187, 248));
+    -webkit-background-clip: text;
+        -moz-background-clip: text;
+        background-clip: text;
+        color: transparent;
+        text-shadow: 1px 5px 10px rgba(255, 255, 255, 0.348);
+        font-size: 2rem;
+        transition: 0.4s;
+        cursor: pointer;
+        margin-top: 10%;
+        width: 100%;
+    }
+
+    .h:hover {
+        font-size: 2.5rem;
+    }
+
+    span#js {
+        font-size: 1.1rem;
+    }
+ }
+
+ @media only screen and (max-width: 375px) {
+    h1.t1 {
+        font-size: 2.5rem;
+        margin: 1rem;
+    }
+ }
+
+
+
+
+
+
+
+
+
+
+/* The skills 
+project starts here */
+
+section.skills {
+    height:15rem;
+    width: 100%;
+}
+
+h2.t3 {
+    text-align: left;
+    font-size: 4rem;
+    padding-left: 10%;
+    margin-top: 5%;
+    text-shadow: 1px 5px 10px rgba(0, 0, 0, 0.33);
+}
+
+
+
+.container1 {
+    float: center;
+    margin-top: 8px;
+}
+
+div.item {
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    line-height: 1;
+    margin-left: 8%;
+    margin-top: 2%;
+
+}
+
+.item img {
+    height: 3rem;
+    display: inline-flex;
+}
+
+/* the contact part starts here */
+
+.contact {
+    width: 100%;
+    display: flex;
+}
+
+.contact1 {
+    color: #ffffff;
+    background-color: #6c2d8e;
+    font-size: 2rem;
+    width: 100%;
+    text-align: center;
+    padding: 3rem;
+    margin: 3rem;
+    border-radius: 15px;
+}
+
+.contact1:hover {
+        text-shadow: 1px 5px 10px rgba(255, 255, 255, 0.348);
+        font-size: 2.5rem;
+        transition: 0.4s;
+        cursor: pointer;
+}
+
+@media only screen and (max-width: 320px) {
+
+    
+    a.l {
+        display: none;
+
+    }
+
+    p.intro {
+        font-size: 1.2rem;
+    }
+
+    h1.tintro {
+        font-size: 2.5rem;
+    }
+
+    h1.t2 {
+        font-size: 2.5rem;
+        
+    }
+
+    h2.t3 {
+        font-size: 2.5rem;
+    }
+ }
