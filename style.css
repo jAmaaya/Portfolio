@@ -434,7 +434,7 @@ div.item {
     display: flex;
 }
 
-.contact1 {
+a.contact1 {
     color: #ffffff;
     background-color: #6c2d8e;
     font-size: 2rem;
@@ -451,6 +451,12 @@ div.item {
         font-size: 2.5rem;
         transition: 0.4s;
         cursor: pointer;
+}
+
+@media only screen and (max-width: 720px) {
+    a.contact1 {
+        box-shadow: 1px 5px 10px rgba(0, 0, 0, 0.348);  
+    }
 }
 
 @media only screen and (max-width: 320px) {
