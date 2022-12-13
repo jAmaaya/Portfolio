@@ -376,12 +376,7 @@ li.s {
         margin: 1rem;
     }
 
-    span#js {
-        font-size: 1.2rem;
-        width: 100%;
-        text-shadow: none;
-        padding: 0%;
-    }
+    
  }
 
 
@@ -480,5 +475,12 @@ div.item {
 
     h2.t3 {
         font-size: 2.5rem;
+    }
+
+    span#js {
+        font-size: 1.2rem;
+        width: 100%;
+        text-shadow: none;
+        padding: 0%;
     }
  }
