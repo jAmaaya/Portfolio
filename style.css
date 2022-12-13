@@ -263,6 +263,12 @@ li.s {
         background-clip: text;
         color: transparent;
         text-shadow: 1px 5px 10px rgba(255, 255, 255, 0.348);
+
+        
+    }
+    span#js {
+        font-size: 1.6rem;
+        width: 100%;
     }
 }
 
@@ -354,9 +360,7 @@ li.s {
         font-size: 2.5rem;
     }
 
-    span#js {
-        font-size: 1.1rem;
-    }
+    
  }
 
  @media only screen and (max-width: 375px) {
