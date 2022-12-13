@@ -443,6 +443,7 @@ div.item {
     padding: 3rem;
     margin: 3rem;
     border-radius: 15px;
+    box-shadow: 1px 5px 10px rgba(0, 0, 0, 0.348);
 }
 
 .contact1:hover {
@@ -488,6 +489,6 @@ div.item {
     a.contact1 {
         font-size: 1.5rem;
         padding: 0.8rem;
-        box-shadow: 1px 5px 10px rgba(0, 0, 0, 0.348); 
+         
     }
  }
