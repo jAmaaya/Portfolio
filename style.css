@@ -477,10 +477,17 @@ div.item {
         font-size: 2.5rem;
     }
 
-    span#js {
+    #js {
         font-size: 1.2rem;
         width: 100%;
         text-shadow: none;
         padding: 0%;
+        text-align: center;
+    }
+
+    a.contact1 {
+        font-size: 1.5rem;
+        padding: 0.8rem;
+        box-shadow: 1px 5px 10px rgba(0, 0, 0, 0.348); 
     }
  }
