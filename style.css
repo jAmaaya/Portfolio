@@ -243,6 +243,21 @@ li.s {
 
 
 @media only screen and (max-width: 768px) {
+
+    nav {
+        width: 100%;
+    }
+
+    ul {
+        width:100%;
+        padding: 1%;
+    }
+
+    a {
+
+        font-size: 0.7rem;
+    }
+
     section#k.num3 {
         height: auto;
         padding-bottom: 2rem; 
@@ -311,10 +326,19 @@ li.s {
 
 @media only screen and (max-width: 425px) {
 
-    a.l {
+    a.s {
         display: none;
 
     }
+
+    a {
+        margin: auto;
+        padding: auto;
+        font-size: 0.7rem;
+        text-align: right;
+
+    } 
+
 
     p.intro {
         width: 65%;
